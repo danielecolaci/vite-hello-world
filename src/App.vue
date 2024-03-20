@@ -2,6 +2,11 @@
 
 export default {
 
+  data() {
+    return {
+      title: 'Hello, World!'
+    }
+  }
 
 }
 
@@ -9,11 +14,12 @@ export default {
 </script>
 
 <template>
-  <h1>Hello World</h1>
+  <h1>{{ title }}</h1>
 </template>
 
 <style>
 h1 {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 </style>
